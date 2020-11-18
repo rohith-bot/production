@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+   
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Goldman&display=swap" rel="stylesheet">
+</head>
+<style>
+   body{
+    background-color: antiquewhite;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+
+#heading{
+    
+    margin: 50px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Goldman', cursive;
+    border: 10px solid brown;
+}
+a{
+    text-decoration: none ;
+    color: Red;
+}
+
+img {
+    border: 3px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 300px;
+    margin-bottom: 20px;
+  }
+  img:hover {
+    box-shadow: 0 0 5px 5px rgba(186, 0, 0, 0.705);
+  }
+
+  /* .center {
+    display: flex;
+    margin: 100px;
+    
+    width: 50%;
+  } */
+
+
+  #rash{
+      /* margin-left: 500px; */
+      padding: 20px;
+      padding-bottom: 10px ;
+  }
+  #san{
+      /* padding: 6px; */
+  }
+
+  p{
+      text-align: center;
+      border: 3px solid purple;
+      border-radius: 4px;
+      
+  }
+  p:hover {
+    box-shadow: 0 0 5px 5px rgba(186, 0, 0, 0.705);
+  }
+</style>
+<body>
+ <div id="heading">
+     
+    <h1>We All Heartly Welcome To Our Wedding!</h1>
+ </div>
+
+
+ <a href="{% url 'rashmi' %}" id="ras">
+<span id="rash">
+         <img src="https://cdn.discordapp.com/attachments/776080824298242060/778626035141836830/rashmi.jpg" class="image" width="400px" height="400px">
+         <p><strong><b>RASHMI FAMILY</b></strong></p>
+</span></a>
+     
+<a href="{% url 'sandesh' %}" id="san">
+ <span id="san">
+         <img src="https://cdn.discordapp.com/attachments/776080824298242060/778626090419748864/sandesh.jpg" class="image" width="400px" height="400px">
+        <p><strong><b>SANDESH FAMILY</b></strong></p>
+ </span></a>
+    
+
+
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(122, 116, 116);
+            
+            
+            
+        }
+        #text0:hover{
+            border: 3px solid greenyellow;
+        }
+        #text0{
+            border: 3px solid brown;
+            margin: 5px;
+            padding: 5px;
+            border-radius: 10px;
+        }
+        #text1{
+            border: 3px solid brown;
+            margin: 5px;
+            padding: 5px;
+            border-radius: 10px;
+        }
+        #text1:hover{
+            border: 3px solid greenyellow;
+        }
+        #text2:hover{
+            border: 3px solid greenyellow;
+        }
+        #text3:hover{
+            border: 3px solid greenyellow;
+        }
+        #text4:hover{
+            border: 3px solid greenyellow;
+        }
+        #text5:hover{
+            border: 3px solid greenyellow;
+        }
+        #text6:hover{
+            border: 3px solid greenyellow;
+        }
+        #text2{
+            border: 3px solid brown;
+            margin: 5px;
+            padding: 5px;
+            border-radius: 10px;
+        }
+        #text3{
+            border: 3px solid brown;
+            margin: 5px;
+            padding: 5px;
+            border-radius: 10px;
+        }
+        #text4{
+            border: 3px solid brown;
+            margin: 5px;
+            padding: 5px;
+            border-radius: 10px;
+        }
+        #text5{
+            border: 3px solid brown;
+            margin: 5px;
+            padding: 5px;
+            border-radius: 10px;
+        }
+        #text6{
+            border: 3px solid brown;
+            margin: 5px;
+            padding: 5px;
+            border-radius: 10px;
+        }
+        #text7{
+            border:3px solid rgb(233, 71, 71) ;
+            margin: 5px;
+            padding: 5px;
+            text-align: center;
+            
+        }
+        #h1{
+            color: maroon;
+        }
+    </style>
+</head>
+<body>
+    <form action="submitras" method="post">
+        {% csrf_token %}
+        <h1 id="h1">ASK QUESTIONS HERE</h1>
+        <div class="text">
+            <input id="text0" type="text" name="name" placeholder="Name"><br>
+            <input id="text1" type="text" name="relation" placeholder="Relation"><br>
+            <input id="text2" type="text" name="question" placeholder="question"><br>
+            <input id="text3" type="text" name="option1" placeholder="option1"><br>
+            <input id="text4" type="text" name="option2" placeholder="option2"><br>
+            <input id="text5" type="text" name="option3" placeholder="option3"><br>
+            <input id="text6" type="text" name="option4" placeholder="option4"><br>
+            <button id="text7" type="submit">Submit</button>
+            <img src="https://discord.com/channels/@me/776080824298242060" alt="">
+        </div>
+    </form>
+</body>
+</html>
